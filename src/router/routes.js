@@ -4,8 +4,15 @@ const routes = [
     path: '/',
     component: () => import('layouts/MainLayout.vue'),
     children: [
-      { path: '', component: () => import('src/pages/Todo.vue') },
+      { path: '', component: () => import('src/pages/Index.vue') },
       { path: 'help', component: () => import('src/pages/Help.vue') }
+    ]
+  },
+  {
+    path: '/auth',
+    component: () => import('layouts/BlankLayout.vue'),
+    children: [
+      { path: 'login', component: () => import('src/pages/LoginPage.vue') }
     ]
   },
 
