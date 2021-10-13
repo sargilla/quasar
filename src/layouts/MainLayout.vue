@@ -10,7 +10,7 @@
           aria-label="Menu"
           @click="toggleLeftDrawer"
         />
-        <q-toolbar-title>Todo 1.4</q-toolbar-title>
+        <q-toolbar-title>Todo 1.5</q-toolbar-title>
         <q-btn icon="mdi-logout" flat round />
       </q-toolbar>
     </q-header>
