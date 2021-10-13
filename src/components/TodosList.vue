@@ -4,7 +4,7 @@
       <q-item-section side>
         <UpdateTodoCheckbox />
       </q-item-section>
-      <q-item-section> Go to shop </q-item-section>
+      <q-item-section> Go to shopping </q-item-section>
       <q-item-section side>
         <DeleteTodoButton flat round size="sm" icon="mdi-delete" />
       </q-item-section>

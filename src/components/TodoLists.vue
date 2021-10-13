@@ -20,7 +20,7 @@
         <q-icon name="mdi-help" />
       </q-item-section>
 
-      <q-item-section> Helps to user </q-item-section>
+      <q-item-section> Helps</q-item-section>
     </q-item>
   </q-list>
 </template>
